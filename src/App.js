@@ -1,12 +1,10 @@
-import React from 'react';
-import Counting from './Counting';
+import './App.css';
+import Counting from './Counting'
 
-const App=()=>{
-  return(
-    <>
-      <Counting/>
-    </>
+function App() {
+  return (
+    <Counting />
   );
-};
+}
 
 export default App;
