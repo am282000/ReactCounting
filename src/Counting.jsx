@@ -3,6 +3,9 @@ import AddIcon from '@material-ui/icons/Add';
 import DeleteIcon from '@material-ui/icons/Delete';
 import Button from '@material-ui/core/Button';
 import Tooltip from '@material-ui/core/Tooltip';
+import ThemedDigitalClock from 'themed-digital-clock';
+import Countdown from './Countdown'
+
 
 const Counting=()=>{
     const [num, setNum] = useState(0);
@@ -21,6 +24,9 @@ const Counting=()=>{
 
     return(
         <>
+        <ThemedDigitalClock 
+          description="Welcome to the Roboland" useDarkTheme={true} size={50} 
+        />
             <div className="main_div">
                 <div className="center_div">
                     <h1>{num}</h1>
@@ -34,6 +40,7 @@ const Counting=()=>{
                     </div>
                 </div>
             </div>
+            <Countdown />
         </>
     )
 }
