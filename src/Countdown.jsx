@@ -5,7 +5,7 @@ const Countdown = () => {
     return (
         <>
             <div className="countdown">
-                <CountdownCircleTimer isPlaying duration={10}
+                <CountdownCircleTimer isPlaying duration={9}
                     colors={[
                     ['red', 0.33],
                     ['#F7B801', 0.33],
