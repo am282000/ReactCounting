@@ -73,9 +73,9 @@ button{
     box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
 }
 
-button:hover{
+/* button:hover{
     background-color: #22a6b3;
-}
+} */
 
 .btn_div{
     width: 100%;
@@ -86,7 +86,12 @@ button:hover{
 
 ol{
     margin-top: 30px;
-
+}
+.btn_green:hover{
+    color: #2ed573;
+}
+.btn_red:hover{
+    color: #ff4757;
 }
 
 
